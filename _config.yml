@@ -6,10 +6,11 @@ competencies: Python, Hadoop, Big Data, Hive, SQL, PySpark, Machine Learning, SA
 google_analytics:
 theme: jekyll-theme-minimal
 
+images:
+  - image1: /Assets/kaggle2.jpg
+  - image2: /Assets/linkedin.jpg
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme 
 
-images:
-  - image1: /Assets/kaggle2.jpg
-  - image2: /Assets/linkedin.jpg
