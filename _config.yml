@@ -1,5 +1,5 @@
 title: Anabel Jiménez 
-logo: /assets/img/profile_pic.jpeg <mi cara>
+logo: /assets/profile_pic.jpeg <mi cara>
 description: Data Scientist with +2 years of experience in analytics and innovation for credit risk with focus on Machine Learning, Artificial Intelligence, Task Automation and Innovation in analysis methodologies.
 competencies: Python, Hadoop, Big Data, Hive, SQL, PySpark, Machine Learning, SAS programming, SAS Visual Analytics.
 # show_downloads: true
@@ -8,4 +8,8 @@ theme: jekyll-theme-minimal
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme 
+
+images:
+  - image1: /Assets/kaggle2.jpg
+  - image2: /Assets/linkedin.jpg
