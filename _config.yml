@@ -1,10 +1,15 @@
 title: Anabel Jiménez 
 logo: /assets/profile_pic.jpeg <mi cara>
-description: Data Scientist with +2 years of experience in analytics and innovation for credit risk with focus on Machine Learning, Artificial Intelligence, Task Automation and Innovation in analysis methodologies.
-competencies: Python, Hadoop, Big Data, Hive, SQL, PySpark, Machine Learning, SAS programming, SAS Visual Analytics.
+description: Con experiencia práctica en procesos ETL, Machine Learning, su implementación, optimización, evaluación y validación de desempeño. Tengo experiencia en Gobernanza de datos, Automatización de tareas y optimización de procesos, así como en herramientas para la visualización de datos en tiempo real.
+
+description_en: Professional with hands-on experience in ETL processes, Machine Learning, implementation, optimisation, evaluation and performance validation. I have experience in Data Governance,  Task Automation and process optimisation as well as real-time data visualisation tools. Eager to contribute and learn in a dynamic data-driven environment.
+
+competencies: Python, SQL, PySpark, Machine Learning, Powerbi, Looker, Big Data, Cloud Platforms(GCP, AWS).
+
 images:
   - image1: /Assets/kaggle2.jpg
   - image2: /Assets/linkedin.jpg
+
 # show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal

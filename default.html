@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    <style>
+        .view {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1><a href="{{ "/" | absolute_url }}" style="color: black;">{{ site.title }}</a></h1>
+        {% if site.logo %}
+            <img src="{{ site.logo | relative_url }}" alt="Logo" style="width: 60%; height: 60%;">
+        {% endif %}
+        <p>{{ site.description_es }}</p>
+        <p>{{ site.description_en }}</p>
+        <p>Competencies: {{ site.competencies }}</p>
+        <div class="view">
+            <a href="https://www.linkedin.com/in/anabel-jimenez-huerta/" target="_blank">
+                <img src="/assets/linkedin.jpg" alt="LinkedIn Symbol" style="width: 40px; height: 40px; vertical-align: middle;">
+            </a>
+        </div>
+        <div class="view">
+            <a href="https://www.kaggle.com/anabeljimenezh" target="_blank">
+                <img src="/assets/kaggle2.jpg" alt="Kaggle Symbol" style="width: 40px; height: 40px; vertical-align: middle;">
+            </a>
+        </div>
+    </header>
+    <section>
+        {{ content }}
+    </section>
+</div>
+</body>
+</html>

@@ -24,13 +24,10 @@ Fronteras de decisión para el modelo balanceado (ADASYN - Adaptive Synthetic Sa
 ## Bank Customer Complaint Analysis
 
 
-[Código en Google Colab](https://colab.research.google.com/drive/1A_TD_fQmrtkpjg2p3dKcprhgODFKaEGJ?usp=sharing)
-{:target="_blank"}.
+[Código en Google Colab](https://colab.research.google.com/drive/1A_TD_fQmrtkpjg2p3dKcprhgODFKaEGJ?usp=sharing){:target="_blank"}.
 
-NLP - Quejas de los productos de un banco.
-Consiste en entrenar un modelo de clasificación de quejas y evaluar el desempeño utilizando métricas como precisión, recall, F1-score y exactitud. Además, realicé la mejora del modelo con valores óptimos de los hiperparámetros. 
-
-Adicionalmente, definí Pipelines para automatizar el flujo de trabajo como una forma de codificar y automatizar el workflow necesario para producir el modelo de Machine Learning.
+NLP - Project for Multi Class Text Classification.
+Consiste en entrenar un modelo de clasificación de quejas de los productos de un banco y evaluar el desempeño utilizando métricas como precisión, recall, F1-score y exactitud.
 
 **WordCloud de palabras que caracterizan las quejas**
 
@@ -46,12 +43,15 @@ Los productos financieros asociados a la queja están categorizados en 5 clases:
 
 <img src="Assets/NubePalabrasmortgages_and_loans.jpg?raw=true" style="width: 80%;" />
 
+Además, realicé la mejora del modelo con valores óptimos de los hiperparámetros. 
 
-## Machine Learning en investigación de mercado automotor
+Adicionalmente, definí Pipelines para automatizar el flujo de trabajo como una forma de codificar y automatizar el workflow necesario para reproducir el modelo de Machine Learning.
 
-[Código en Google Colab](link){:target="_blank"}.
+## Machine Learning en Investigación de Mercado Automotor
 
-Objetivo: Modelo de clasificación con aprendizaje supervisado que permita clasificar el precio de los vehículos en gama alta y de gama baja.
+[Código en Google Colab](https://drive.google.com/file/d/1KBqgwK_93tkgWSeu5_AN84bSq83nCzRN/view?usp=sharing){:target="_blank"}.
+
+Modelo de clasificación con aprendizaje supervisado que permitE clasificar el precio de los vehículos en gama alta y de gama baja.
 
 Implementé un modelo de ensamble Stacking con 3 modelos y 1 metamodelo de prueba para mejorar el rendimiento predictivo al combinar múltiples modelos.
 
@@ -65,12 +65,25 @@ Los 3 modelos de clasificación que se utilizaron se mejoraron con Grid Search, 
 
 *Tratamiento previo de variables numéricas y categóricas.
 
+
+
 ## NLP - Sentiment Analysis for Yelp & GoogleMaps reviews
 
-+modelo predictivo para diferenciar reviews positivas de las negativas. 
+CGP Project - Building ETL Data Pipeline in Python with Google Maps Data using Cloud Storage, Cloud Functions, Cloud Run y BigQuery. Automaticación de ETLs con triggers.
 
-Modelo predictivo que diferencia reviews positivos de los negativos.
-[Código en Google Colab](https://colab.research.google.com/drive/1tmRPsOLBL674-xKL_0xu6Edn9d_i1UpB?usp=sharing){:target="_blank"}.
+[Repositorio en Github](https://github.com/cesagarcia1984/proyecto_Subway/blob/main/README.md){:target="_blank"}.
 
+
+## MLOps Project - Recomendaciones
+
+[Repositorio en Github](https://github.com/SAnabel-Jimenez/PI-01-MLOps-SAJ-){:target="_blank"}.
+
+Un sistema de recomendación de videojuegos para usuarios realizando un flujo de trabajo completo de MLOps.
+Desde identificar el año con más horas jugadas para un género específico hasta proporcionar recomendaciones (item-item y user-item, aplicando cosine similarity) y evaluaciones de usuarios, creé endpoints que cubren aspectos clave de la experiencia de juego y permiten una mejor comprensión del comportamiento de los usuarios y sus preferencias. 
+
+<img src="Assets/process.png?raw=true" style="width: 80%;" />
+
+Feature Engineering | Desarrollo API | Deployment | EDA | ML
+Similitud Cosenos 
 
 ## Redes neuronales (En curso)
