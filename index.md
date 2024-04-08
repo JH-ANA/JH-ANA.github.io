@@ -69,9 +69,10 @@ Los 3 modelos de clasificación que se utilizaron se mejoraron con Grid Search, 
 
 ## NLP - Sentiment Analysis for Yelp & GoogleMaps reviews
 
+[Repositorio en Github](https://github.com/cesagarcia1984/proyecto_Subway/blob/main/README.md){:target="_blank"}.
+
 CGP Project - Building ETL Data Pipeline in Python with Google Maps Data using Cloud Storage, Cloud Functions, Cloud Run y BigQuery. Automaticación de ETLs con triggers.
 
-[Repositorio en Github](https://github.com/cesagarcia1984/proyecto_Subway/blob/main/README.md){:target="_blank"}.
 
 
 ## MLOps Project - Recomendaciones
