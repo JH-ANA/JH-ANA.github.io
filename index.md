@@ -47,13 +47,23 @@ Los productos financieros asociados a la queja están categorizados en 5 clases:
 <img src="Assets/NubePalabrasmortgages_and_loans.jpg?raw=true" style="width: 80%;" />
 
 
-## Proyecto Integrador 2
-
-Descripcion.
+## Machine Learning en investigación de mercado automotor
 
 [Código en Google Colab](link){:target="_blank"}.
 
+Objetivo: Modelo de clasificación con aprendizaje supervisado que permita clasificar el precio de los vehículos en gama alta y de gama baja.
 
+Implementé un modelo de ensamble Stacking con 3 modelos y 1 metamodelo de prueba para mejorar el rendimiento predictivo al combinar múltiples modelos.
+
+Los 3 modelos de clasificación que se utilizaron se mejoraron con Grid Search, iterando sus hiperparámetros para obtener los que optimicen el accuracy. 
+
+**Curva ROC evaluado a los distintos métodos de clasificación**
+
+<img src="Assets/ROC_Knn.jpg?raw=true" style="width: 80%;" />
+
+*Research del mercado automotor: Precio varía según la región, nivel socioeconómico y cultura de cada país o por cómo cotiza el modelo en el mercado.
+
+*Tratamiento previo de variables numéricas y categóricas.
 
 ## NLP - Sentiment Analysis for Yelp & GoogleMaps reviews
 
