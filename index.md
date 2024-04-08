@@ -49,7 +49,7 @@ Adicionalmente, definí Pipelines para automatizar el flujo de trabajo como una 
 
 ## Machine Learning en Investigación de Mercado Automotor
 
-[Código en Google Colab](https://drive.google.com/file/d/1KBqgwK_93tkgWSeu5_AN84bSq83nCzRN/view?usp=sharing){:target="_blank"}.
+[Código en Google Colab](https://colab.research.google.com/drive/1-Qx5_Vgw30V6Iy5NOElybRKnMC58wQWT?usp=sharing){:target="_blank"}.
 
 Modelo de clasificación con aprendizaje supervisado que permitE clasificar el precio de los vehículos en gama alta y de gama baja.
 
