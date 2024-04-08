@@ -18,8 +18,8 @@
 <div class="wrapper">
     <header>
         <h1><a href="{{ "/" | absolute_url }}" style="color: black;">{{ site.title }}</a></h1>
-        {% if site.logo %}
-            <img src="{{ site.logo | relative_url }}" alt="Logo" style="width: 60%; height: 60%;">
+        {% if site.profile_pic  %}
+            <img src="{{ site.profile_pic | relative_url }}" alt="Profile Pic" style="width: 60%; height: 60%;">
         {% endif %}
         <p>{{ site.description }}</p>
         <p>{{ site.description_en }}</p>

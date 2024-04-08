@@ -10,6 +10,8 @@ images:
   - image1: /Assets/kaggle2.jpg
   - image2: /Assets/linkedin.jpg
 
+profile_pic: /Assets/profile_mine.jpeg
+
 # show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
